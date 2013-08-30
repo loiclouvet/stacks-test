@@ -3,3 +3,6 @@ development:
         configuration:
             reserved_server_memory: 100
             passenger_process_memory: 150
+    nginx:
+        configuration:
+            perfect_forward_secrecy: true
